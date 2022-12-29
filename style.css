@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://images.pexels.com/photos/2422280/pexels-photo-2422280.jpeg);
+    background-repeat:no-repeat;
+    background-size:60%;
+    background-color: black;
+}
+.sign{
+    display:flex;
+    z-index: 1;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+h1{
+    color:white;
+    font-size: 10rem;
+    margin:0 50px;
+    
+
+}
+.blk-block{
+    position: absolute;
+    bottom:-1rem;
+    background: linear-gradient(90deg,transparent ,black);
+    height:60rem;
+    width:75rem;
+    z-index:0;
+}
