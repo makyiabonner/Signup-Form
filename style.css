@@ -23,7 +23,10 @@ p{
     color:white;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font-weight: 500;
+}
+p:nth-child(2){
+    font-weight: 600;
 }
 i{
     color:rgb(255, 123, 0);
@@ -31,7 +34,17 @@ i{
 .form{
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0 50px;
+}
+form{
+    display: flex;
+    z-index: 1;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    flex-flow: row wrap;
+    width:30vw;
+    justify-content: flex-end;
 }
 input{
     background-color: black;
@@ -39,6 +52,33 @@ input{
     border-radius: 5px;
     border:white 1px solid;
     width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+input:valid{
+    border-color:rgb(255, 123, 0);
+}
+input:invalid{
+    border-color:white;
+}
+.input{
+    padding:30px;
+}
+
+.btm-submit{
+    padding: 3rem;
+
+}
+
+button{
+    background-color: rgb(255, 123, 0);
+    color:black;
+    border-radius: 5px;
+    border:white 1px solid;
+    box-shadow: white 0px 0px 15px ;
+    width: 15rem;
     height: 2rem;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
