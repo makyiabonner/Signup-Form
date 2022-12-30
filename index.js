@@ -6,3 +6,4 @@ let pass = document.getElementById("pass");
 let cpass = document.getElementById("cpass");
 
 
+//Password and 
