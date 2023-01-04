@@ -145,6 +145,7 @@ button{
 	}
 	.background-img::before {
 		background: linear-gradient(180deg,transparent 5%, black 70%);
+		height:100%;
 	}
 	p:nth-child(1){
 		display: none;
